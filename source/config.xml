@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.jila.yawuru" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Yawuru Ngan-ga</name>
+    <description>
+        
+    </description>
+    <author email="it@yawuru.org.au" href="http://www.yawuru.org.au">
+        Mabu Yawuru Ngan-ga
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="orientation" value="portrait" />
+</widget>

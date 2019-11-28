@@ -1,0 +1,10 @@
+.page.games-page 
+  .row  
+    .columns.small-12.large-5.small-centered
+      %ul.menu-items{journey: ''}
+        %li{ng: {repeat: 'category in categories'}}
+          %a{href: 'javascript:void(0)', ng: {click: 'startGamesFor(category)'}}
+            .category.menu-item
+              .icon{style: 'background-image: url({{category.images.thumbnail}})'}
+            .category-name {{ category.name }}
+            .track
